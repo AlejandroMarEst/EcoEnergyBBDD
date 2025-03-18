@@ -1,4 +1,4 @@
-﻿namespace EcoEnergyRazor.Models
+﻿namespace EcoEnergyBBDD.Models
 {
     public class SolarSystem : EnergySystem, IEnergyCalculation
     {

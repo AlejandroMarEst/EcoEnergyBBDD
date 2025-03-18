@@ -1,12 +1,12 @@
 using CsvHelper;
 using CsvHelper.Configuration;
-using EcoEnergyRazor.Models;
+using EcoEnergyBBDD.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.Globalization;
-using static EcoEnergyRazor.Models.EnergySystem;
+using static EcoEnergyBBDD.Models.EnergySystem;
 
-namespace EcoEnergyRazor.Pages
+namespace EcoEnergyBBDD.Pages
 {
     // PageModel for creating energy simulations
     public class SimCreatorModel : PageModel
